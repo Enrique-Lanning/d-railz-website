@@ -1,0 +1,8 @@
+Change units from vw to rem
+Change height and width of banner to rem
+Added fade in transition to header image
+Made each footer custom to each page
+Fixed contact form formatting/bugs
+Added borders around images and text
+Added a header bar
+Added social profiles to contact page

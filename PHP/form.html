@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>This is a page to show the code to create forms</h1>
+	<br>
+
+		
+	<form>
+	    First name:<br>
+		<input type="text" name="firstname"><br>
+
+            Last name:<br>
+            	<input type="text" name="lastname">
+
+            <br><br>
+
+            E-mail:<br>
+  		<input type="email" name="email_address">
+
+            <br><br>
+
+            Rate our Rides from 0 (terrible) to 5 (fantastic):<br>
+            	<input type="radio" name="Rides" id="Rides0" value="0" /><label for="Rides0"> 0 </label>
+            	<input type="radio" name="Rides" id="Rides1" value="1" /><label for="Rides1"> 1 </label>
+        	<input type="radio" name="Rides" id="Rides2" value="2" /><label for="Rides2"> 2 </label>
+            	<input type="radio" name="Rides" id="Rides3" value="3" /><label for="Rides3"> 3 </label>
+            	<input type="radio" name="Rides" id="Rides4" value="4" /><label for="Rides4"> 4 </label>
+            	<input type="radio" name="Rides" id="Rides5" value="5" /><label for="Rides5"> 5 </label>
+
+            <br><br>
+
+            Value for Money:<br>
+            	<select name="Value">
+    			<option value="0"> "Really Cheap!"</option>
+    			<option value="1"> "Good Value!"</option>
+    			<option value="2"> "Not bad"</option>
+    			<option value="3"> "A bit expensive"</option>
+                	<option value="4"> "Too expensive"</option>
+  		</select>
+
+            <br><br>
+
+            Rate our amenities (between 0 and 5):<br>
+ 		<input type="number" name="Amenities" min="0" max="5">
+
+            <br><br>
+
+            What else can you tell us?:<br>
+            	<textarea name="message" rows="10" cols="30">Please tell us what you think.</textarea>
+
+	<br>
+
+	<input type="submit" value="Submit">
+
+	</form>
+        
+</body>
+</html>

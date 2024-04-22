@@ -1,0 +1,323 @@
+body {
+  background-color: #E2E3E6;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+.logo img{
+  position:absolute;
+  margin-top:-1rem;
+  margin-left:-11.5rem;
+  alt="Logo with a dragon icon.";
+}
+
+.navbar ul {
+  list-style-type: none;
+  width:108rem;
+  margin: 0;
+  padding:0 0 0 11rem;
+  overflow: hidden;
+  background-color: #61961B;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #E2E3E6;
+  text-align: left;
+  padding: 2.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar li a:hover {
+  background-color: #E34E29;
+}
+
+.colorblock img {
+  height: 6.2rem; 
+  display: block;
+  margin-left: 17.3rem;
+}
+
+.containerheader {
+  position: relative;
+  text-align: center;
+}
+
+.headerbar {
+  position: relative;
+  margin-top:-0.2rem;
+  margin-left:-10rem;
+}
+
+.rollercoasterhomepage {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.page-name {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #E2E3E6;
+  text-shadow: 0.3vw 0.3vw #E34E29;
+}
+
+.slogan {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  color: #E2E3E6;
+  text-shadow: 0.3vw 0.3vw #E34E29;
+}
+
+.call-to-action {
+  position: absolute;
+  top: 140%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #E2E3E6;
+  text-shadow: 0.3rem 0.3rem #E34E29;
+}
+
+.overview img {
+  position:absolute;
+  margin-top:20rem;
+  margin-left:20rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ride-call img {
+  position:absolute;
+  margin-top:20rem;
+  margin-left:70rem;
+  float: right;
+  height:30rem;
+  width:30rem;
+}
+
+.special-call img {
+  position:absolute;
+  margin-top:75rem;
+  margin-left:20rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.contact-call img {
+  position:absolute;
+  margin-top:75rem;
+  margin-left:70rem;
+  float: right;
+  height:30rem;
+  width:30rem;
+}
+
+.past {
+  position:absolute;
+  margin-top:-130rem;
+  margin-left:0rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.staff {
+  position:absolute;
+  margin-top:-95rem;
+  margin-left:50rem;
+  float: right;
+  height:30rem;
+  width:30rem;
+}
+
+.past img {
+  position:absolute;
+  margin-top:140rem;
+  margin-left:15rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.staff img {
+  position:absolute;
+  margin-top:155rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ride-child img {
+  position:absolute;
+  margin-top:15rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ride-teen img {
+  position:absolute;
+  margin-top:60rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ride-adult img {
+  position:absolute;
+  margin-top:105rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ride-family img {
+  position:absolute;
+  margin-top:149rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ticket-one {
+  position:absolute;
+  margin-top:15rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ticket-two {
+  position:absolute;
+  margin-top:65rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.ticket-three {
+  position:absolute;
+  margin-top:115rem;
+  margin-left:10rem;
+  float: left;
+  height:30rem;
+  width:30rem;
+}
+
+.map {
+  overflow:hidden;
+  padding-bottom:50rem;
+  position:relative;
+  margin-top:10rem;
+  margin-left:15rem;
+}
+
+.map iframe {
+  height:80rem;
+  width:90rem;
+  position:absolute;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  column-gap: 5%;
+  row-gap: 5%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+  border: 7px solid rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    padding:0 0 0 0rem;
+  }
+  
+  .navbar li {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 1rem 0; 
+  }
+
+  .navbar li a {
+    padding: 1rem 0; 
+	text-align: center;
+	font-size: 1rem;
+  }
+
+  .page-name, .slogan {
+    font-size: 3rem;
+  }
+  
+  .logo img{
+    display:none;
+  }
+  
+  .colorblock img {
+    height: 6.2rem; 
+    display: block;
+    margin-left:6.9rem;
+	display: none;
+  }
+}
